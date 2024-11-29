@@ -1,0 +1,156 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+nav{
+    background-color: #2d995e;
+}
+nav li{
+    display: inline-block;
+    
+}
+li{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+
+nav li a:hover{
+    background-color: rgb(172, 172, 172);
+}
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px rgb(243, 242, 242);
+    display: none;
+    border-radius: 15px;
+    
+}
+
+.dropdown-menu a{
+    display: block;
+    color: rgb(228, 228, 228);
+    background-color: #555151;
+    
+    
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    border-radius: 15px;
+}
+h2{
+    color: white;
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h4{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d995e;
+    color: white;
+    padding: 1rem;
+    
+}
+
+main {
+    padding: 1rem;
+
+}
+
+h1{color: black;
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #e6e2e2;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+footer {
+    background-color: #b1b1b1;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 0.5rem;
+}
+
+form input, form textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    border: none;
+    background-color: #38753a;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2d995e;
+}
+img{
+    width: 500px;
+    margin-left: 30px;
+
+}
+img, li {
+    display:inline-flex;
+}
+h5{font-size: 40px;
+text-align: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+img{
+width: 50px;
+right: 50px;
+border-radius: 50px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
